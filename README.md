@@ -21,8 +21,11 @@ NewTab+ is a powerful Chrome extension that transforms your new tab into a perso
 To install NewTab+, follow these simple steps:
 
 Open your Chrome browser.
+
 Visit the Chrome Web Store and search for "NewTab+."
+
 Click on the "Add to Chrome" button to install the extension.
+
 Once installed, the NewTab+ features will be available whenever you open a new tab.
 
 ### Contributions and Feedback
