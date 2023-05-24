@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto&family=Trade+Winds&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/44e31025c8.js" crossorigin="anonymous"></script>  
+    <link rel="stylesheet" type="text/css" href="styles.css"/>
+    <script src="script.js"> </script>
+
+    <title>New Tab You</title>
+</head>
+<body>
+
+  <div id="todo-label">
+    <h2>Todo</h2>
+  </div>
+
+  <div id="todo-popup" class ="hidden">
+    <form class="new-task-form">
+      <input class="todo-input" placeholder="Let's get this done!">
+      <button class="todo-button" type="submit">
+        <i class="fa-solid fa-plus"></i>
+      </button>
+    </form>
+  
+    <h2>Tasks</h2>
+    <div class="todo-container">
+      <ul class="todo-list">
+      </ul>
+    </div>
+  </div>  
+
+  <div id="weather-info-container">
+    <div id="icon"></div>
+    <div id="weather"></div>
+    <div id="city"></div>
+  </div>
+
+  <div id="weather-input-container">
+    <form id="weather-input-form">
+      <input type="text" id="city-input" placeholder="Enter your city for local weather" autocomplete="off">
+      <button id="search-button" type="submit">
+        <i class="fa-solid fa-magnifying-glass"></i>
+      </button>
+    </form>
+  </div>
+
+  <div id="welcome-container">
+    <form id="name-form">
+      <label for="name-input" id="name-input-label">Enter your name:</label>
+      <input type="text" id="name-input" name="name" autocomplete="off">
+    </form>
+  </div>
+
+  <div class="grid-container">
+    <div id="time"></div>
+    <div id="greeting">
+      <span id="greeting-message"></span>
+    </div>
+
+    <div id="search-container">
+      <form id="form-google" action="https://www.google.com/search" method="get">
+        <input id="input-google" type="text" name="q" placeholder="Search Google...">
+        <button id="button-google" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+      </form>
+    </div>
+  </div>
+
+  <div id="gear-container">
+    <i class="fa-solid fa-gear"></i>
+  </div>
+
+  <div id="popup">
+    <h2>Settings</h2>
+    <form class="popup-form">
+        <label for="fontSelect">Font:</label>
+        <select id="fontSelect">
+            <option value="Poppins">Poppins</option>
+            <option value="Digital">Digital</option>
+            <option value="Verdana">Verdana</option>
+            <option value="Georgia">Georgia</option>
+            <option value="Inconsolata">Inconsolata</option>
+        </select>
+        <label for="colorSelect">Color:</label>
+        <input type="color" id="colorSelect" value="#ffffff">
+        <br>
+        <label for="unitSelect">Unit:</label>
+        <select id="unitSelect">
+            <option value="F">&deg;F</option>
+            <option value="C">&deg;C</option>
+
+      </form>
+</div>
+
+</body>
+</html>
