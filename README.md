@@ -16,19 +16,3 @@ NewTab+ is a powerful Chrome extension that transforms your new tab into a perso
 **Sleek Design:** Enjoy a clean and modern design that not only looks great but also enhances the user experience. NewTab+ is designed to be visually appealing and easy to use.
 
 **Inspired by Momentum:** NewTab+ draws inspiration from the popular Momentum Chrome extension while adding unique features and customization options to make it even more versatile and user-friendly.
-
-### Installation
-To install NewTab+, follow these simple steps:
-
-Open your Chrome browser.
-
-Visit the Chrome Web Store and search for "NewTab+."
-
-Click on the "Add to Chrome" button to install the extension.
-
-Once installed, the NewTab+ features will be available whenever you open a new tab.
-
-### Contributions and Feedback
-Contributions, bug reports, and feature requests are welcome! If you have any suggestions or would like to contribute to the development of NewTab+, please feel free to submit an issue or create a pull request on our GitHub repository.
-
-We appreciate your feedback and are committed to continuously improving NewTab+ to make it even better for our users.
