@@ -1,3 +1,5 @@
+** Check out marcosmaciel.tech to see a demo of this project in video! **
+
 ### NewTab+ Chrome Extension
 NewTab+ is a powerful Chrome extension that transforms your new tab into a personalized and productive hub. Say goodbye to boring new tabs and welcome a whole new level of functionality, style, and efficiency to your browsing experience.
 
