@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function() {
 
-  const apiKey = '1fd65e6713c363478e61f304b4572c63';
+  const apiKey = process.env.API_KEY;
   const weatherInputForm = document.getElementById('weather-input-form');
   const cityInput = document.getElementById('city-input');
   const timeDiv = document.getElementById("time");
